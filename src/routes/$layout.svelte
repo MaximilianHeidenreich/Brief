@@ -12,7 +12,7 @@
         <div class="icon"></div>
     </div>
     <div class="github"
-        on:click={() => goto("/")}>     <!-- Dirty hack.. should rly use something else -->
+        on:click={() => goto("https://github.com/MaximilianHeidenreich/Brief")}>     <!-- Dirty hack.. should rly use something else -->
         <div class="icon"></div>
     </div>
 
