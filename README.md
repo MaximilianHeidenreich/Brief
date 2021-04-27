@@ -39,6 +39,8 @@
     <br />
     <a href="#"><strong>Explore the docs »</strong></a>
     <br />
+    <a href="https://brief-lake.vercel.app  ">View Demo</a>
+    ·
     <a href="https://github.com/MaximilianHeidenreich/Brief/issues">Report Bug</a>
     ·
     <a href="https://github.com/MaximilianHeidenreich/Brief/issues">Request Feature</a>
