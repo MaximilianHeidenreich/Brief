@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    width: 100%;
+    height: 100%;
+
+    body {
+        width: 100%;
+        height: 100%;
+
+        @apply text-4xl sm:text-6xl;
+
+        small {
+            @apply text-sm sm:text-lg;
+        }
+
+        #svelte {
+            width: 100%;
+            height: 100%;
+
+            main {
+                @apply w-full h-full;
+                @apply flex justify-center items-center;
+
+                .content {
+                    @apply max-w-4xl w-full pb-12;
+
+                    section {
+                        @apply w-full p-8;
+
+                        p {
+                            font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
