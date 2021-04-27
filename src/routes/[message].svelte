@@ -1,6 +1,6 @@
 <script context="module">
     export async function load({ page }) {
-        return { props: { message: page.params.message }}
+        return { props: { message: page.params.message, host: page.host, path: page.path }}
     }
 </script>
 <script>
@@ -11,6 +11,8 @@
 
     // PROPS
     export let message = "";
+    export let host = "";
+    export let path = "";
 
     // UTIL
     let printInterval;
@@ -45,6 +47,12 @@
     })
 
 </script>
+
+<svelte:head>
+	<meta property="og:url" content="{host}/{path}">
+    <meta property="twitter:domain" content="{host}">
+    <meta property="twitter:url" content="{host}/{path}">
+</svelte:head>
 
 <section>
     <p>
