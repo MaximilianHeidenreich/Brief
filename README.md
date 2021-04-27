@@ -63,10 +63,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-I created this project because I needed it for my [JNet]() and [EnderSync]() projects. 
-Everything else I found online might have worked but would result in too much boilerplate code or
-just had an API that was pretty big.
-I just wanted a simple EventLoop without* any other dependencies which could process my events.
+Have you ever felt the need to send a brief message to someone but not through those unpersonal messager apps? Brief has you covered!
+
+With Brief you can send short messages (*24 chars max.*) to other people.
+
+<br />
 
 ### Features
 
