@@ -78,18 +78,28 @@
             font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 
             @apply w-full;
-            @apply border-b border-opacity-100 border-gray-300;
+            @apply border-b border-opacity-100 border-gray-300 bg-transparent;
             @apply focus:border-black;
             @apply focus:outline-none focus:ring-0;
             @apply text-4xl py-1;
+
+            &::placeholder {
+                color: #9a9a9a;
+            }
         }
         
         button {
-            @apply w-full;
-            @apply bg-gray-900 rounded-lg shadow-lg;
-            @apply text-white text-lg p-2;
+            @apply w-full rounded-full shadow-lg;
+            @apply font-semibold text-white text-lg p-2;
+            @apply active:shadow-none;
+            background-color: #542e71;
 
-            @apply hover:shadow-none hover:bg-gray-800;
+            &:hover {
+                background-color: #462760;
+            }
+            &:active {
+                background-color: #3b1d53;
+            }
         }
     }
 
