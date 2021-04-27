@@ -19,12 +19,14 @@
     function share() {
         if (navigator.share) {
             navigator.share({
-                title: "A message for you!",
+                title: "A brief message for you!",
                 url
             }).then(() => {
-                console.log("Share success");
+                console.log("Share success!");
             })
-            .catch(console.error);
+            .catch((err) => {
+                console.error(err);
+            });
         } else {
             // fallback
             console.error("No share!");
