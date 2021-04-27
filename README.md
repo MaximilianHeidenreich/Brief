@@ -56,6 +56,7 @@
 - [Usage](#usage)
   - [Web](#web)
   - [API](#api)
+  - [Dev](#dev)
 - [Contributing](#contributing)
 - [Contact](#contact)
 - [Licenses](#licenses)
@@ -103,6 +104,32 @@ You will receive the following response if everything went well (Status `400` if
     "data": "base64 encoded message data"
 }
 ```
+
+### Dev
+
+This project uses [Svelte Kit](https://kit.svelte.dev) please refer to it's documentation for further information.
+
+```bash
+# === DEVELOPMENT
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+
+# === BUILD
+# Change the adapter in /svelte.config.cjs if you don't want to use Vercel!
+
+# Build the project
+npm run build
+```
+
+> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+
 
 <br />
 
