@@ -49,7 +49,7 @@
 </script>
 
 <svelte:head>
-	<meta property="og:url" content="https://{host}/{path}">
+    <meta property="og:url" content="https://{host}/{path}">
     <meta property="twitter:domain" content="https://{host}">
     <meta property="twitter:url" content="https://{host}/{path}">
 </svelte:head>
