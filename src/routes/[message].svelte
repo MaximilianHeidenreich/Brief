@@ -63,7 +63,7 @@
 
 <style>
     p {
-        @apply text-center;
+        @apply text-center break-words;
     }
     .cursor {
         opacity: 0;
