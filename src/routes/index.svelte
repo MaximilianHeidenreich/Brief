@@ -53,10 +53,17 @@
     {/if}
     <section>
         <div id="form">
-            <input 
-                type="text" 
+            <div>
+                <input 
+                    type="text" 
                     maxlength="30" 
-                bind:value={message} />
+                    placeholder="Enter a message"
+                    bind:value={message} 
+                    class="mb-0" />
+                <p class="text-right leading-4">
+                    <small class="text-xl"><b>{message.length} / 30</b></small>
+                </p>
+            </div>
             
             <div class="flex space-x-4">
                 {#if canShare}
