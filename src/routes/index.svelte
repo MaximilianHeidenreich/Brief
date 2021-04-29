@@ -55,8 +55,7 @@
         <div id="form">
             <input 
                 type="text" 
-                maxlength="24" 
-                placeholder="Enter a message"
+                    maxlength="30" 
                 bind:value={message} />
             
             <div class="flex space-x-4">
