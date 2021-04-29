@@ -1,5 +1,5 @@
 {
-  "name": "~TODO~",
+  "name": "brief",
   "version": "1.0.0",
   "scripts": {
     "dev": "svelte-kit dev",
