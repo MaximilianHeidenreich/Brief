@@ -66,7 +66,7 @@
 
 Have you ever felt the need to send a brief message to someone but not through those unpersonal messager apps? Brief has you covered!
 
-With Brief you can send short messages (*24 chars max.*) to other people.
+With Brief you can send short messages (*30 chars max.*) to other people.
 
 <br />
 
